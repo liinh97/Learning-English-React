@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Learning-English-React/static/css/main.2c766abd.chunk.css",
+    "main.js": "/Learning-English-React/static/js/main.a1de7fe8.chunk.js",
+    "main.js.map": "/Learning-English-React/static/js/main.a1de7fe8.chunk.js.map",
+    "runtime-main.js": "/Learning-English-React/static/js/runtime-main.aa8419e0.js",
+    "runtime-main.js.map": "/Learning-English-React/static/js/runtime-main.aa8419e0.js.map",
+    "static/js/2.a332d23f.chunk.js": "/Learning-English-React/static/js/2.a332d23f.chunk.js",
+    "static/js/2.a332d23f.chunk.js.map": "/Learning-English-React/static/js/2.a332d23f.chunk.js.map",
+    "index.html": "/Learning-English-React/index.html",
+    "static/css/main.2c766abd.chunk.css.map": "/Learning-English-React/static/css/main.2c766abd.chunk.css.map",
+    "static/js/2.a332d23f.chunk.js.LICENSE.txt": "/Learning-English-React/static/js/2.a332d23f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa8419e0.js",
+    "static/js/2.a332d23f.chunk.js",
+    "static/css/main.2c766abd.chunk.css",
+    "static/js/main.a1de7fe8.chunk.js"
+  ]
+}

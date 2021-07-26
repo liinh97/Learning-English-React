@@ -1,0 +1,112 @@
+.form-login, .form-register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 75vh;
+    border-radius: 5%;
+    background-color: rgb(61, 66, 66);
+    box-shadow: 0 0 15px;
+
+    #login, #register{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .form-title{
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-top: 80px;
+            color: white;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .form-description{
+            font-size: 1rem;
+            font-weight: bold;
+            margin-top: 20px;
+            color: yellow;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        input{
+            width: 70%;
+            height: 50px;
+            outline: none;
+            border: 0;
+            border-radius: 50px;
+            font-size: 1.6rem;
+            padding-left: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        input::placeholder{
+            font-size: 1.2rem;
+        }
+        
+        #input-user_name{
+            margin: 80px auto 0;
+        }
+        
+        #input-user_password{
+            margin: 20px auto 0;
+        }
+
+        .message_error{
+            padding-top: 30px;
+            color: red;
+            visibility: hidden;
+        }
+
+        .hide_mess{
+            visibility: visible;
+            animation-name: messError;
+            animation-duration: 4s;
+        }
+
+        @keyframes messError {
+            0% {
+                margin-left: -5px;
+            }
+            5% {
+                margin-left: 5px;
+            }
+            10% {
+                margin-left: 0px;
+            }
+        }
+        
+        button{
+            margin: 50px auto 0;
+            width: 50%;
+            height: 50px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            outline: none;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        
+        a{
+            margin: 25px auto;
+            color: yellowgreen;
+            width: 55%;
+        }
+        
+        a:hover{
+            color: yellow;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
